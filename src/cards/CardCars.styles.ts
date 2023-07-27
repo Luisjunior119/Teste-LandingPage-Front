@@ -8,23 +8,65 @@ export const CarContent = styled.div`
 
     border: 1px solid #000000;
     border-radius: 24px;
+
+    margin-top: 60px;
+`;
+
+export const CarImage = styled.div`
+
+    img{
+        position: absolute;
+    transform: translateY(-55%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 180px;
+    height: 130px;
+    margin: 0 24px;
+    }
 `;
 
 export const CarCompany = styled.div`
     justify-content: center;
     display: flex;
-    margin-top: 24px;
+    margin-top: 42px;
 `;
 
-export const CarYear = styled.div``;
+export const StatsCar = styled.div`
+    padding: 32px 24px;
+`;
 
-export const CarKm = styled.div``;
+export const CarYear = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 12px;
+`;
 
-export const CarPower = styled.div``;
+export const CarKm = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+`;
 
-export const CarShield = styled.div``;
+export const CarPower = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+`;
+
+export const CarShield = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+`;
 
 export const CarButton = styled.div`
+
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+
     button {
 
         width: 217px;
