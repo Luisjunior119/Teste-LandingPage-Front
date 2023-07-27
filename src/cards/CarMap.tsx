@@ -8,6 +8,7 @@ export const CarMap = () => {
         {data.map((item) => {
         return(
             <CardCars
+            carImage={item.carImage}
             company={item.company}
             year={item.year}
             km={item.km}
