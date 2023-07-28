@@ -16,9 +16,6 @@ Antes de começar, recomendo ter instalado em sua máquina a seguinte ferramenta
 # Clone este repositório
 $ git clone <https://github.com/ibtriz/teste-front-end-react.git>
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd teste-front-end-react
-
 # Instale as dependências
 $ npm install
 # ou
