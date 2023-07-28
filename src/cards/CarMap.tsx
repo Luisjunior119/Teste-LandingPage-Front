@@ -5,9 +5,10 @@ import { Container } from './CarMap.styles'
 export const CarMap = () => {
   return (
     <Container>
-        {data.map((item) => {
+        {data.map((item, idx) => {
         return(
             <CardCars
+            key={`key_${idx}`}
             carImage={item.carImage}
             company={item.company}
             year={item.year}
