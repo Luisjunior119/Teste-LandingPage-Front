@@ -14,7 +14,7 @@ Antes de começar, recomendo ter instalado em sua máquina a seguinte ferramenta
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/ibtriz/teste-front-end-react.git>
+$ git clone <https://github.com/Luisjunior119/Teste-LandingPage-Front>
 
 # Instale as dependências
 $ npm install
