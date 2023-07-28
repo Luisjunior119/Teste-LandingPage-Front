@@ -9,11 +9,11 @@ export const data = [
 
         company: "Mustang",
         
-        year: "2015",
+        year: "2013",
 
-        km: "180Km/h",
+        km: "220Km/h",
 
-        power: "9/10",
+        power: "4/10",
 
         shield: "7/10",
 
@@ -25,11 +25,11 @@ export const data = [
         
         year: "2015",
 
-        km: "180Km/h",
+        km: "177Km/h",
 
         power: "9/10",
 
-        shield: "7/10",
+        shield: "10/10",
 
     },
     {
@@ -37,11 +37,11 @@ export const data = [
 
         company: "Mustang",
         
-        year: "2015",
+        year: "2016",
 
-        km: "180Km/h",
+        km: "250Km/h",
 
-        power: "9/10",
+        power: "10/10",
 
         shield: "7/10",
 
@@ -51,13 +51,13 @@ export const data = [
 
         company: "Mustang",
         
-        year: "2015",
+        year: "2009",
 
-        km: "180Km/h",
+        km: "170Km/h",
 
-        power: "9/10",
+        power: "7/10",
 
-        shield: "7/10",
+        shield: "5/10",
 
     },
 ]
