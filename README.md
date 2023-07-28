@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# Teste Front-End React
+Teste para vaga front end React Jr com desenvolvimento das responsivo páginas propostas no protótipo e utilizando Styled Components.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desafios 
+- Desenvolvimento das responsivo páginas propostas no protótipo
+- Utilizar Styled Components
 
-Currently, two official plugins are available:
+## 🛠 Instalando
+### Pré-requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de começar, recomendo ter instalado em sua máquina a seguinte ferramenta:
+- Editor para visualizar e trabalhar com o Código: [VSCode](https://code.visualstudio.com/)
 
-## Expanding the ESLint configuration
+### Começando 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+```bash
+# Clone este repositório
+$ git clone <https://github.com/ibtriz/teste-front-end-react.git>
 
-- Configure the top-level `parserOptions` property like this:
+# Acesse a pasta do projeto no terminal/cmd
+$ cd teste-front-end-react
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+# Instale as dependências
+$ npm install
+# ou
+$ yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+# ou
+$ yarn run start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Referência
+[PROTÓTIPO](https://www.figma.com/file/Q6bkzorOfp71pC5LlkGSTb/Teste-Front-CyberG%C3%AAnios?node-id=22%3A218)
