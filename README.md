@@ -2,7 +2,6 @@
 Teste para vaga front end React Jr com desenvolvimento das responsivo páginas propostas no protótipo e utilizando Styled Components.
 
 ## Desafios 
-- Desenvolvimento das responsivo páginas propostas no protótipo
 - Utilizar Styled Components
 
 ## 🛠 Instalando
@@ -26,11 +25,7 @@ $ npm install
 $ yarn install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
-# ou
-$ yarn run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+$ npm run dev
 ```
 
 # Referência
